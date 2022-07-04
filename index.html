@@ -412,13 +412,12 @@ interface Touch {
       <p>In addition to the <a href="#sec-global-attributes">global attributes</a>, the [=component/`image`=] component defines the following content attributes:</p>
 
       <table class="summary">
-        <caption>`image` component additional attributes</caption>
+        <caption>`image` additional attributes</caption>
         <thead>
           <tr>
             <th scope="col">Attribute</th>
             <th scope="col">Type</th>
             <th scope="col">Value by default</th>
-			      <th scope="col">Mandatory</th>
             <th scope="col">Description</th>
           </tr>
         </thead>
@@ -427,7 +426,6 @@ interface Touch {
             <th scope="row"><code>src</code></th>
             <td>`string`</td>
             <td></td>
-			      <td>no</td>
             <td>
               Source of the image. The supported image formats include PNG, JPG, BMP, SVG, and GIF.
             </td>
@@ -435,8 +433,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>alt</code></th>
             <td>`string`</td>
-            <td></td>
-			      <td>no</td>
+            <td></dt>
             <td>
               Placeholder image displayed during the load of the resource specified in `src`.
             </td>
@@ -445,7 +442,6 @@ interface Touch {
             <th scope="row"><code>disabled</code></th>
             <td>`boolean`</td>
             <td>`false`</td>
-			      <td>no</td>
             <td>
               Indicates whether the current element is available for use and interaction or not.
             </td>
@@ -454,7 +450,6 @@ interface Touch {
             <th scope="row"><code>focusable</code></th>
             <td>`boolean`</td>
             <td>`true`</td>
-			      <td>no</td>
             <td>
               Attribute to specify if the component is a <a href="https://html.spec.whatwg.org/multipage/interaction.html#focusable-area" data-link-type="dfn">focusable area</a> (value `true`) or not (value `false`).
             </td>
@@ -463,7 +458,6 @@ interface Touch {
             <th scope="row"><code>data</code></th>
             <td>`string`</td>
             <td></td>
-			      <td>no</td>
             <td>
               Auxiliary attribute to facilitate data storage and manipulation.
             </td>
@@ -523,7 +517,6 @@ interface Touch {
             <th scope="col">Attribute</th>
             <th scope="col">Type</th>
             <th scope="col">Value by default</th>
-			      <th scope="col">Mandatory</th>
             <th scope="col">Description</th>
           </tr>
         </thead>
@@ -531,8 +524,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>type</code></th>
             <td>`string`</td>
-            <td>`text`</td>
-			      <td>no</td>
+            <td>`text`</dt>
             <td>
               Dynamic modification is not supported. If this attribute is not set, capsule-like buttons are displayed. Different from the capsule button, the four rounded corners of a capsule-like button can be configured using border-radius. Options are: `capsule` (a capsule-like button with background color, and text), `circle` (a circle button which can be used to show icons); `text` (button with text only), `arc` (arc button) <mark>(This value is applicable to wearables only)</mark>, `download` (a download button). <mark>The download progress bar is added. This value is applicable to smart TVs and smartphones.</mark>
             </td>
@@ -540,8 +532,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>value</code></th>
             <td>`string`</td>
-            <td></td>
-			      <td>no</td>
+            <td></dt>
             <td>
               Text value of the button. This attribute is unavailable for circle buttons.
             </td>
@@ -549,8 +540,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>icon</code></th>
             <td>`string`</td>
-            <td></td>
-			      <td>no</td>
+            <td></dt>
             <td>
               Source of the image for the `circle` styled icon. The supported icon formats are JPG, PNG, and SVG.
             </td>
@@ -558,8 +548,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>waiting</code></th>
             <td>`boolean`</td>
-            <td></td>
-			      <td>no</td>
+            <td></dt>
             <td>
               Waiting status. When waiting is set to `true`, the waiting transition is displayed on the left of the text. 
             </td>
@@ -567,8 +556,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>disable</code></th>
             <td>`boolean`</td>
-            <td>`false`</td>
-			      <td>no</td>
+            <td>`false`</dt>
             <td>
               Whether the component is disabled. If it is disabled, it cannot respond to user interaction.
             </td>
@@ -576,8 +564,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>focusable</code></th>
             <td>`boolean`</td>
-            <td>`true`</td>
-			      <td>no</td>
+            <td>`true`</dt>
             <td>
               Attribute to specify if the component is a <a href="https://html.spec.whatwg.org/multipage/interaction.html#focusable-area" data-link-type="dfn">focusable area</a> (value `true`) or not (value `false`).
             </td>
@@ -585,8 +572,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>data</code></th>
             <td>`string`</td>
-            <td></td>
-			      <td>no</td>
+            <td></dt>
             <td>
               Auxiliary attribute to facilitate data storage and manipulation.
             </td>
@@ -609,7 +595,6 @@ interface Touch {
             <th scope="col">Attribute</th>
             <th scope="col">Type</th>
             <th scope="col">Value by default</th>
-			      <th scope="col">Mandatory</th>
             <th scope="col">Description</th>
           </tr>
         </thead>
@@ -617,8 +602,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>disable</code></th>
             <td>`boolean`</td>
-            <td>`false`</td>
-			      <td>no</td>
+            <td>`false`</dt>
             <td>
               Whether the component is disabled. If it is disabled, it cannot respond to user interaction.
             </td>
@@ -626,8 +610,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>focusable</code></th>
             <td>`boolean`</td>
-            <td>`true`</td>
-			      <td>no</td>
+            <td>`true`</dt>
             <td>
               Attribute to specify if the component is a <a href="https://html.spec.whatwg.org/multipage/interaction.html#focusable-area" data-link-type="dfn">focusable area</a> (value `true`) or not (value `false`).
             </td>
@@ -635,8 +618,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>data</code></th>
             <td>`string`</td>
-            <td></td>
-			      <td>no</td>
+            <td></dt>
             <td>
               Auxiliary attribute to facilitate data storage and manipulation.
             </td>
@@ -658,7 +640,6 @@ interface Touch {
             <th scope="col">Attribute</th>
             <th scope="col">Type</th>
             <th scope="col">Value by default</th>
-			      <th scope="col">Mandatory</th>
             <th scope="col">Description</th>
           </tr>
         </thead>
@@ -666,8 +647,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>type</code></th>
             <td>`string`</td>
-            <td>`text`</td>
-			      <td>no</td>
+            <td>`text`</dt>
             <td>
               Type of the `input` component. The options are: `text`, `email`, `date`, `time`, `number`, `password`, `button`, `checkbox`, and `radio`.
             </td>
@@ -675,8 +655,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>checked</code></th>
             <td>`boolean`</td>
-            <td>`false`</td>
-			      <td>no</td>
+            <td>`false`</dt>
             <td>
               Flag that indicates if the component is selected or not. This attribute is valid only when `type` is either `checkbox` or `radio`.
             </td>
@@ -684,8 +663,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>name</code></th>
             <td>`string`</td>
-            <td></td>
-			      <td>no</td>
+            <td></dt>
             <td>
               Name given to the `input` component.
             </td>
@@ -693,8 +671,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>value</code></th>
             <td>`string`</td>
-            <td></td>
-			      <td>no</td>
+            <td></dt>
             <td>
               Current value of the `input` component. When `type` is `radio` the attribute is mandatory, and the value MUST be unique for radio buttons with the same `name`.
             </td>
@@ -702,8 +679,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>placeholder</code></th>
             <td>`string`</td>
-            <td></td>
-			      <td>no</td>
+            <td></dt>
             <td>
               Placeholder content to be displayed as a hint text. This attribute is available only when `type` is `text`, `email`, `date`, `time`, `number`, or `password`.
             </td>
@@ -711,8 +687,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>maxlength</code></th>
             <td>`number`</td>
-            <td></td>
-			      <td>no</td>
+            <td></dt>
             <td>
               Maximum number of characters that can be entered in the input box. If no value is specified, the number of characters is not limited.
             </td>
@@ -720,8 +695,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>headericon</code></th>
             <td>`string`</td>
-            <td></td>
-			      <td>no</td>
+            <td></dt>
             <td>
               Source of the icon to be shown in a textual input. This image does not support click events. The supported image formats are JPG, PNG, and SVG.
             </td>
@@ -729,8 +703,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>disable</code></th>
             <td>`boolean`</td>
-            <td>`false`</td>
-			      <td>no</td>
+            <td>`false`</dt>
             <td>
               Whether the component is disabled. If it is disabled, it cannot respond to user interaction.
             </td>
@@ -738,8 +711,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>focusable</code></th>
             <td>`boolean`</td>
-            <td>`true`</td>
-			      <td>no</td>
+            <td>`true`</dt>
             <td>
               Attribute to specify if the component is a <a href="https://html.spec.whatwg.org/multipage/interaction.html#focusable-area" data-link-type="dfn">focusable area</a> (value `true`) or not (value `false`).
             </td>
@@ -747,8 +719,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>data</code></th>
             <td>`string`</td>
-            <td></td>
-			      <td>no</td>
+            <td></dt>
             <td>
               Auxiliary attribute to facilitate data storage and manipulation.
             </td>
@@ -796,7 +767,6 @@ interface Touch {
             <th scope="col">Attribute</th>
             <th scope="col">Type</th>
             <th scope="col">Value by default</th>
-			      <th scope="col">Mandatory</th>
             <th scope="col">Description</th>
           </tr>
         </thead>
@@ -804,8 +774,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>target</code></th>
             <td>`string`</td>
-            <td></td>
-			      <td>no</td>
+            <td></dt>
             <td>
               Identifier of the associated target component (form field or text).
             </td>
@@ -813,8 +782,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>disable</code></th>
             <td>`boolean`</td>
-            <td>`false`</td>
-			      <td>no</td>
+            <td>`false`</dt>
             <td>
               Whether the component is disabled. If it is disabled, it cannot respond to user interaction.
             </td>
@@ -822,8 +790,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>focusable</code></th>
             <td>`boolean`</td>
-            <td>`true`</td>
-			      <td>no</td>
+            <td>`true`</dt>
             <td>
               Attribute to specify if the component is a <a href="https://html.spec.whatwg.org/multipage/interaction.html#focusable-area" data-link-type="dfn">focusable area</a> (value `true`) or not (value `false`).
             </td>
@@ -831,8 +798,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>data</code></th>
             <td>`string`</td>
-            <td></td>
-			      <td>no</td>
+            <td></dt>
             <td>
               Auxiliary attribute to facilitate data storage and manipulation.
             </td>
@@ -855,7 +821,6 @@ interface Touch {
             <th scope="col">Attribute</th>
             <th scope="col">Type</th>
             <th scope="col">Value by default</th>
-			      <th scope="col">Mandatory</th>
             <th scope="col">Description</th>
           </tr>
         </thead>
@@ -863,8 +828,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>type</code></th>
             <td>`string`</td>
-            <td></td>
-			      <td>no</td>
+            <td></dt>
             <td>
               Dynamic modification is not supported. Available values include: `text`: text selector; `date`: date selector; `time`: time selector; `datetime`: date and time selector; `multi-text`: multi-column text selector.
             </td>
@@ -872,8 +836,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>disable</code></th>
             <td>`boolean`</td>
-            <td>`false`</td>
-			      <td>no</td>
+            <td>`false`</dt>
             <td>
               Whether the component is disabled. If it is disabled, it cannot respond to user interaction.
             </td>
@@ -881,8 +844,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>focusable</code></th>
             <td>`boolean`</td>
-            <td>`true`</td>
-			      <td>no</td>
+            <td>`true`</dt>
             <td>
               Attribute to specify if the component is a <a href="https://html.spec.whatwg.org/multipage/interaction.html#focusable-area" data-link-type="dfn">focusable area</a> (value `true`) or not (value `false`).
             </td>
@@ -890,8 +852,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>data</code></th>
             <td>`string`</td>
-            <td></td>
-			      <td>no</td>
+            <td></dt>
             <td>
               Auxiliary attribute to facilitate data storage and manipulation.
             </td>
@@ -913,7 +874,6 @@ interface Touch {
             <th scope="col">Attribute</th>
             <th scope="col">Type</th>
             <th scope="col">Value by default</th>
-			      <th scope="col">Mandatory</th>
             <th scope="col">Description</th>
           </tr>
         </thead>
@@ -921,8 +881,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>type</code></th>
             <td>`string`</td>
-            <td>`horizontal`</td>
-			      <td>no</td>
+            <td>`horizontal`</dt>
             <td>
               Type of the progress bar, which cannot be changed dynamically. Possible values: `horizontal`: for a linear progress bar; and `circular`: for a circular loading image; `ring`: ring progress bar; `scale-ring`: ring progress bar with a scale; `arc`: arc progress bar.
             </td>
@@ -930,8 +889,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>focusable</code></th>
             <td>`boolean`</td>
-            <td>`true`</td>
-			      <td>no</td>
+            <td>`true`</dt>
             <td>
               Attribute to specify if the component is a <a href="https://html.spec.whatwg.org/multipage/interaction.html#focusable-area" data-link-type="dfn">focusable area</a> (value `true`) or not (value `false`).
             </td>
@@ -939,8 +897,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>data</code></th>
             <td>`string`</td>
-            <td></td>
-			      <td>no</td>
+            <td></dt>
             <td>
               Auxiliary attribute to facilitate data storage and manipulation.
             </td>
@@ -963,7 +920,6 @@ interface Touch {
             <th scope="col">Attribute</th>
             <th scope="col">Type</th>
             <th scope="col">Value by default</th>
-			      <th scope="col">Mandatory</th>
             <th scope="col">Description</th>
           </tr>
         </thead>
@@ -971,8 +927,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>disable</code></th>
             <td>`boolean`</td>
-            <td>`false`</td>
-			      <td>no</td>
+            <td>`false`</dt>
             <td>
               Whether the component is disabled. If it is disabled, it cannot respond to user interaction.
             </td>
@@ -980,8 +935,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>focusable</code></th>
             <td>`boolean`</td>
-            <td>`true`</td>
-			      <td>no</td>
+            <td>`true`</dt>
             <td>
               Attribute to specify if the component is a <a href="https://html.spec.whatwg.org/multipage/interaction.html#focusable-area" data-link-type="dfn">focusable area</a> (value `true`) or not (value `false`).
             </td>
@@ -989,8 +943,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>data</code></th>
             <td>`string`</td>
-            <td></td>
-			      <td>no</td>
+            <td></dt>
             <td>
               Auxiliary attribute to facilitate data storage and manipulation.
             </td>
@@ -1039,7 +992,6 @@ interface Touch {
             <th scope="col">Attribute</th>
             <th scope="col">Type</th>
             <th scope="col">Value by default</th>
-			      <th scope="col">Mandatory</th>
             <th scope="col">Description</th>
           </tr>
         </thead>
@@ -1047,8 +999,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>min</code></th>
             <td>`number`</td>
-            <td></td>
-			      <td>no</td>
+            <td></dt>
             <td>
               Minimum value of the slider.
             </td>
@@ -1056,8 +1007,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>max</code></th>
             <td>`number`</td>
-            <td></td>
-			      <td>no</td>
+            <td></dt>
             <td>
               Maximum value of the slider.
             </td>
@@ -1065,8 +1015,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>value</code></th>
             <td>`number`</td>
-            <td></td>
-			      <td>no</td>
+            <td></dt>
             <td>
               Current value of the slider.
             </td>
@@ -1074,8 +1023,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>disable</code></th>
             <td>`boolean`</td>
-            <td>`false`</td>
-			      <td>no</td>
+            <td>`false`</dt>
             <td>
               Whether the component is disabled. If it is disabled, it cannot respond to user interaction.
             </td>
@@ -1083,8 +1031,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>focusable</code></th>
             <td>`boolean`</td>
-            <td>`true`</td>
-			      <td>no</td>
+            <td>`true`</dt>
             <td>
               Attribute to specify if the component is a <a href="https://html.spec.whatwg.org/multipage/interaction.html#focusable-area" data-link-type="dfn">focusable area</a> (value `true`) or not (value `false`).
             </td>
@@ -1092,8 +1039,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>data</code></th>
             <td>`string`</td>
-            <td></td>
-			      <td>no</td>
+            <td></dt>
             <td>
               Auxiliary attribute to facilitate data storage and manipulation.
             </td>
@@ -1142,7 +1088,6 @@ interface Touch {
             <th scope="col">Attribute</th>
             <th scope="col">Type</th>
             <th scope="col">Value by default</th>
-			      <th scope="col">Mandatory</th>
             <th scope="col">Description</th>
           </tr>
         </thead>
@@ -1150,8 +1095,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>checked</code></th>
             <td>`boolean`</td>
-            <td>`false`</td>
-			      <td>no</td>
+            <td>`false`</dt>
             <td>
               Indicates if the component is checked (active) or not.
             </td>
@@ -1159,8 +1103,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>showtext</code></th>
             <td>`boolean`</td>
-            <td>`false`</td>
-			      <td>no</td>
+            <td>`false`</dt>
             <td>
               Indicates if the user agent MUST display labeling texts.
             </td>
@@ -1168,8 +1111,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>texton</code></th>
             <td>`string`</td>
-            <td>`on`</td>
-			      <td>no</td>
+            <td>`on`</dt>
             <td>
               Label displayed when the component is checked (active).
             </td>
@@ -1177,8 +1119,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>textoff</code></th>
             <td>`string`</td>
-            <td>`off`</td>
-			      <td>no</td>
+            <td>`off`</dt>
             <td>
               Label displayed when the component is unchecked (off).
             </td>
@@ -1186,8 +1127,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>disable</code></th>
             <td>`boolean`</td>
-            <td>`false`</td>
-			      <td>no</td>
+            <td>`false`</dt>
             <td>
               Whether the component is disabled. If it is disabled, it cannot respond to user interaction.
             </td>
@@ -1195,8 +1135,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>focusable</code></th>
             <td>`boolean`</td>
-            <td>`true`</td>
-			      <td>no</td>
+            <td>`true`</dt>
             <td>
               Attribute to specify if the component is a <a href="https://html.spec.whatwg.org/multipage/interaction.html#focusable-area" data-link-type="dfn">focusable area</a> (value `true`) or not (value `false`).
             </td>
@@ -1204,8 +1143,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>data</code></th>
             <td>`string`</td>
-            <td></td>
-			      <td>no</td>
+            <td></dt>
             <td>
               Auxiliary attribute to facilitate data storage and manipulation.
             </td>
@@ -1253,7 +1191,6 @@ interface Touch {
             <th scope="col">Attribute</th>
             <th scope="col">Type</th>
             <th scope="col">Value by default</th>
-			      <th scope="col">Mandatory</th>
             <th scope="col">Description</th>
           </tr>
         </thead>
@@ -1261,8 +1198,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>focusable</code></th>
             <td>`boolean`</td>
-            <td>`true`</td>
-			      <td>no</td>
+            <td>`true`</dt>
             <td>
               Attribute to specify if the component is a <a href="https://html.spec.whatwg.org/multipage/interaction.html#focusable-area" data-link-type="dfn">focusable area</a> (value `true`) or not (value `false`).
             </td>
@@ -1270,8 +1206,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>data</code></th>
             <td>`string`</td>
-            <td></td>
-			      <td>no</td>
+            <td></dt>
             <td>
               Auxiliary attribute to facilitate data storage and manipulation.
             </td>
@@ -1294,7 +1229,6 @@ interface Touch {
             <th scope="col">Attribute</th>
             <th scope="col">Type</th>
             <th scope="col">Value by default</th>
-			      <th scope="col">Mandatory</th>
             <th scope="col">Description</th>
           </tr>
         </thead>
@@ -1302,8 +1236,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>muted</code></th>
             <td>`boolean`</td>
-            <td>`false`</td>
-			      <td>no</td>
+            <td>`false`</dt>
             <td>
               Whether the video audio is muted or not.
             </td>
@@ -1311,8 +1244,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>src</code></th>
             <td>`string`</td>
-            <td></td>
-			      <td>no</td>
+            <td></dt>
             <td>
               Source of the the video content.
             </td>
@@ -1320,8 +1252,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>autoplay</code></th>
             <td>`boolean`</td>
-            <td>`false`</td>
-			      <td>no</td>
+            <td>`false`</dt>
             <td>
               Flag to indicate if the video is played automatically once it is loaded.
             </td>
@@ -1329,8 +1260,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>poster</code></th>
             <td>`string`</td>
-            <td></td>
-			      <td>no</td>
+            <td></dt>
             <td>
               Source of a image that is shown as a preview of the video.
             </td>
@@ -1338,8 +1268,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>controls</code></th>
             <td>`boolean`</td>
-            <td>`true`</td>
-			      <td>no</td>
+            <td>`true`</dt>
             <td>
               Flag that indicates if the control bar is displayed during video playback. If the value is `false`, the control bar is hidden. 
             </td>
@@ -1347,8 +1276,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>disable</code></th>
             <td>`boolean`</td>
-            <td>`false`</td>
-			      <td>no</td>
+            <td>`false`</dt>
             <td>
               Whether the component is disabled. If it is disabled, it cannot respond to user interaction.
             </td>
@@ -1356,8 +1284,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>focusable</code></th>
             <td>`boolean`</td>
-            <td>`true`</td>
-			      <td>no</td>
+            <td>`true`</dt>
             <td>
               Attribute to specify if the component is a <a href="https://html.spec.whatwg.org/multipage/interaction.html#focusable-area" data-link-type="dfn">focusable area</a> (value `true`) or not (value `false`).
             </td>
@@ -1365,8 +1292,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>data</code></th>
             <td>`string`</td>
-            <td></td>
-			      <td>no</td>
+            <td></dt>
             <td>
               Auxiliary attribute to facilitate data storage and manipulation.
             </td>
@@ -1525,7 +1451,6 @@ interface Touch {
             <th scope="col">Attribute</th>
             <th scope="col">Type</th>
             <th scope="col">Value by default</th>
-			      <th scope="col">Mandatory</th>
             <th scope="col">Description</th>
           </tr>
         </thead>
@@ -1533,8 +1458,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>offset</code></th>
             <td>`number`</td>
-            <td></td>
-			      <td>no</td>
+            <td></dt>
             <td>
               Distance to the top of the parent component from the `refresh` component that specifies a successful swipe gesture.
             </td>
@@ -1542,8 +1466,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>type</code></th>
             <td>`string`</td>
-            <td>`auto`</td>
-			      <td>no</td>
+            <td>`auto`</dt>
             <td>
               Dynamic effect when the component is refreshed. Two options are available and cannot be modified dynamically: 
               <ul>
@@ -1555,8 +1478,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>refreshing</code></th>
             <td>`boolean`</td>
-            <td>`false`</td>
-			      <td>no</td>
+            <td>`false`</dt>
             <td>
               Flag that indicates if the component is being refreshed or not.
             </td>
@@ -1564,8 +1486,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>lasttime</code></th>
             <td>`boolean`</td>
-            <td>`false`</td>
-			      <td>no</td>
+            <td>`false`</dt>
             <td>
               Flag that indicates if the component MUST display the last time the element was updated. The character string format is `last update time: {locale-date-time}`.
             </td>
@@ -1573,8 +1494,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>friction</code></th>
             <td>`number`</td>
-            <td></td>
-			      <td>no</td>
+            <td></dt>
             <td>
               Pull-down friction coefficient. The value ranges from `0` to `100` (larger values indicate more responsiveness). <br>
               For example, if a user pulls the component down `100 px`, it will actually move `100px * friction`.
@@ -1583,8 +1503,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>disabled</code></th>
             <td>`boolean`</td>
-            <td>`false`</td>
-			      <td>no</td>
+            <td>`false`</dt>
             <td>
               Whether the component is disabled. If it is disabled, it cannot respond to user interaction.
             </td>
@@ -1592,8 +1511,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>focusable</code></th>
             <td>`boolean`</td>
-            <td>`true`</td>
-			      <td>no</td>
+            <td>`true`</dt>
             <td>
               Attribute to specify if the component is a <a href="https://html.spec.whatwg.org/multipage/interaction.html#focusable-area" data-link-type="dfn">focusable area</a> (value `true`) or not (value `false`).
             </td>
@@ -1601,8 +1519,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>data</code></th>
             <td>`string`</td>
-            <td></td>
-			      <td>no</td>
+            <td></dt>
             <td>
               Auxiliary attribute to facilitate data storage and manipulation.
             </td>
@@ -1632,7 +1549,6 @@ interface Touch {
             <th scope="col">Attribute</th>
             <th scope="col">Type</th>
             <th scope="col">Value by default</th>
-			      <th scope="col">Mandatory</th>
             <th scope="col">Description</th>
           </tr>
         </thead>
@@ -1640,8 +1556,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>index</code></th>
             <td>`number`</td>
-			      <td>`0`</td>
-			      <td>no</td>
+			      <td>`0`</dt>
             <td>
               Index of the child component currently active and displayed in the container.
             </td>
@@ -1649,8 +1564,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>loop</code></th>
             <td>`boolean`</td>
-		      	<td>`true`</td>
-			      <td>no</td>
+		      	<td>`true`</dt>
             <td>
               Flag that indicates if the slideshow is in a loop.
             </td>
@@ -1658,8 +1572,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>vertical</code></th>
             <td>`boolean`</td>
-			      <td>`false`</td>
-			      <td>no</td>
+			      <td>`false`</dt>
             <td>
               Flag to indicate the direction of the `swiper` component (horizontal (`false`) by default).
             </td>
@@ -1709,7 +1622,6 @@ interface Touch {
             <th scope="col">Attribute</th>
             <th scope="col">Type</th>
             <th scope="col">Value by default</th>
-			      <th scope="col">Mandatory</th>
             <th scope="col">Description</th>
           </tr>
         </thead>
@@ -1717,8 +1629,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>index</code></th>
             <td>`number`</td>
-			      <td>`0`</td>
-			      <td>no</td>
+			      <td>`0`</dt>
             <td>
               Index of the child component (tab) currently displayed in the container.
             </td>
@@ -1726,8 +1637,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>vertical</code></th>
             <td>`boolean`</td>
-	      		<td>`false`</td>
-			      <td>no</td>
+	      		<td>`false`</dt>
             <td>
               Flag to indicate if `tab` container is rendered vertically or horizontally. The possible values are either `false` (`tab-bar` and `tab-content` arranged vertically) or `true` (`tab-bar` and `tab-content` are arranged horizontally).
             </td>
@@ -1735,8 +1645,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>disabled</code></th>
             <td>`boolean`</td>
-			      <td>`false`</td>
-			      <td>no</td>
+			      <td>`false`</dt>
             <td>
               Whether the component is disabled. If it is disabled, it cannot respond to user interaction.
             </td>
@@ -1744,8 +1653,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>focusable</code></th>
             <td>`boolean`</td>
-      			<td>`true`</td>
-			      <td>no</td>
+      			<td>`true`</dt>
             <td>
               Attribute to specify if the component is a <a href="https://html.spec.whatwg.org/multipage/interaction.html#focusable-area" data-link-type="dfn">focusable area</a> (value `true`) or not (value `false`).
             </td>
@@ -1753,8 +1661,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>data</code></th>
             <td>`string`</td>
-      			<td></td>
-			      <td>no</td>
+      			<td></dt>
             <td>
               Auxiliary attribute to facilitate data storage and manipulation.
             </td>
@@ -1777,7 +1684,6 @@ interface Touch {
             <th scope="col">Attribute</th>
             <th scope="col">Type</th>
             <th scope="col">Value by default</th>
-			      <th scope="col">Mandatory</th>
             <th scope="col">Description</th>
           </tr>
         </thead>
@@ -1785,8 +1691,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>mode</code></th>
             <td>`string`</td>
-			      <td>`scrollable`</td>
-			      <td>no</td>
+			      <td>`scrollable`</dt>
             <td>
               Extensibility of the component width. Available values are as follows: 
               <ul>
@@ -1812,7 +1717,6 @@ interface Touch {
             <th scope="col">Attribute</th>
             <th scope="col">Type</th>
             <th scope="col">Value by default</th>
-			      <th scope="col">Mandatory</th>
             <th scope="col">Description</th>
           </tr>
         </thead>
@@ -1820,8 +1724,7 @@ interface Touch {
           <tr>
             <th scope="row"><code>scrollable</code></th>
             <td>`boolean`</td>
-		      	<td>`true`</td>
-			      <td>no</td>
+		      	<td>`true`</dt>
             <td>
               Flag that indicates if the tabs can be switched by swiping on the tab content. The default value is `true`. If this attribute is set to `false`, tab switching is implemented only through the interaction with `tab-bar`.
             </td>
